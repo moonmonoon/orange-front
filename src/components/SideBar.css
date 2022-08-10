@@ -1,0 +1,64 @@
+.MemoBar {
+    width: 6%;
+    padding-left: 0;
+    padding-right: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    /* overflow-y: auto; */
+    z-index: 99;
+    transition: transform 0.4s;
+    border: 2px solid orange;
+    background: white;
+  
+  }
+  
+  .MemoWrapper {
+    margin-top: 3rem;
+    width: 100%;
+    padding-left: 0;
+    /* flex-grow: 1; */
+    /* -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    flex-direction: column !important; */
+  }
+  
+  
+  .MemoList {
+    margin: auto;
+    height: 70px;
+    padding-left: 0;
+    /* margin-bottom: 0; */
+  }
+  
+  .MemoItemBox {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    justify-content: center; 
+    display: flex;
+    text-align: -webkit-match-parent;
+  }
+  
+ #ShadowCircle {
+    width: 50px;
+    height: 50px;
+    border: 2px solid orange;
+    border-radius: 70%;
+    box-shadow: 1px 4px 6px 0px rgba(0,0,0,0.56);
+    -webkit-box-shadow: 1px 4px 6px 0px rgba(0,0,0,0.56);
+    -moz-box-shadow: 1px 4px 6px 0px rgba(0,0,0,0.56);
+  }
+
+  .MemoItem, .MemoOpen, .MemoPlus {
+    color: rgb(255, 112, 29) !important;
+    transition: color 0.35s ease-in-out;
+    width: 100px;
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex !important;
+    padding: 0.5rem 1rem;
+    text-decoration: none !important;
+    cursor: pointer;
+  }
