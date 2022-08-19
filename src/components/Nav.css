@@ -8,7 +8,9 @@
     margin-left: 50px;
     margin-right: 50px;
     padding: 5px 5px;
+    border-radius: 0%;
     width: 300px;
     font-size: x-large;
+    background-color: white;
 }
 
